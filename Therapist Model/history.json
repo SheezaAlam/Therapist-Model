@@ -1,0 +1,44 @@
+[
+  {
+    "time": "2025-08-06 17:23",
+    "user": "hi",
+    "emotion": "neutral",
+    "score": 0.0,
+    "bot": "I'm having trouble understanding. Please try again."
+  },
+  {
+    "time": "2025-08-06 17:23",
+    "user": "feeling empty",
+    "emotion": "neutral",
+    "score": 0.0,
+    "bot": "I'm having trouble understanding. Please try again."
+  },
+  {
+    "time": "2025-08-06 17:24",
+    "user": "can you please tell me how can i overcome my emotions?",
+    "emotion": "neutral",
+    "score": 0.0,
+    "bot": "I'm having trouble understanding. Please try again."
+  },
+  {
+    "time": "2025-08-06 17:24",
+    "user": "anything else?",
+    "emotion": "neutral",
+    "score": 0.0,
+    "bot": "I'm having trouble understanding. Please try again."
+  },
+  {
+    "time": "2025-08-06 17:24",
+    "user": "i want your opinion how to calm myself",
+    "emotion": "neutral",
+    "score": 0.0,
+    "bot": "I'm having trouble understanding. Please try again."
+  },
+  {
+    "time": "2025-08-06 17:24",
+    "user": "i want your opinion how to calm myself",
+    "emotion": "neutral",
+    "score": 0.0,
+    "bot": "I'm having trouble understanding. Please try again."
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2025-08-06 15:18",
+    "user": "can you help me?",
+    "emotion": "neutral",
+    "score": 0.5,
+    "bot": "I'm here for you, even if I'm having trouble understanding."
+  },
+  {
+    "time": "2025-08-06 15:18",
+    "user": "what trouble?",
+    "emotion": "neutral",
+    "score": 0.5,
+    "bot": "I'm here for you, even if I'm having trouble understanding."
+  },
+  {
+    "time": "2025-08-06 15:21",
+    "user": "hi",
+    "emotion": "neutral",
+    "score": 0.91,
+    "bot": "i'm sorry, but i'm not a fan of sex."
+  },
+  {
+    "time": "2025-08-06 15:21",
+    "user": "can you pls help me out?",
+    "emotion": "neutral",
+    "score": 0.7,
+    "bot": "I'm sorry, but I'm not sure if I'll help you."
+  },
+  {
+    "time": "2025-08-06 15:21",
+    "user": "im having stress",
+    "emotion": "sadness",
+    "score": 0.95,
+    "bot": "I'm sorry, but I'm not feeling well."
+  },
+  {
+    "time": "2025-08-06 15:21",
+    "user": "how can i overcome my stress?",
+    "emotion": "sadness",
+    "score": 0.67,
+    "bot": "I'm sorry, but I'm sorry. I'm sorry."
+  },
+  {
+    "time": "2025-08-06 15:22",
+    "user": "what sorry?>",
+    "emotion": "sadness",
+    "score": 0.6,
+    "bot": "I'm sorry. I'm sorry."
+  }
+]

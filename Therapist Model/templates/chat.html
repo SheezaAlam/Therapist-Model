@@ -1,0 +1,43 @@
+<!-- templates/chat.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Therapist Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌿 Therapist Chat</h1>
+      <div class="actions">
+        <a href="{{ url_for('report') }}">📊 Report</a>
+        <a href="{{ url_for('reset') }}">🧹 Reset</a>
+      </div>
+    </header>
+
+    <main id="chat-window">
+      {% if chat_history %}
+        {% for entry in chat_history %}
+          <div class="turn">
+            <div class="user"><strong>You</strong> <span class="time">{{ entry.time }}</span></div>
+            <div class="bubble user-bubble">{{ entry.user }}</div>
+            <div class="meta">Emotion: <span class="tag">{{ entry.emotion }}</span> ({{ entry.score }})</div>
+
+            <div class="bot"><strong>Therapist</strong></div>
+            <div class="bubble bot-bubble">{{ entry.bot }}</div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p class="empty">Your conversation will appear here. Say hi 👋</p>
+      {% endif %}
+    </main>
+
+    <form action="{{ url_for('send') }}" method="post" class="composer">
+      <input type="text" name="message" placeholder="Type your message..." autocomplete="off" required />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>

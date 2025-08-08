@@ -1,0 +1,42 @@
+<!-- templates/report.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Emotion Report</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📊 Emotion Report</h1>
+      <div class="actions">
+        <a href="{{ url_for('index') }}">⬅️ Back</a>
+        <a href="{{ url_for('reset') }}">🧹 Reset</a>
+      </div>
+    </header>
+
+    <section>
+      {% if emotion_count %}
+        <h3>Emotion Frequency</h3>
+        <ul>
+          {% for label, count in emotion_count.items() %}
+            <li><strong>{{ label }}</strong>: {{ count }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>No data yet.</p>
+      {% endif %}
+    </section>
+
+    <section>
+      <h3>Chat Summary</h3>
+      <ul>
+        {% for entry in chat_history %}
+          <li><strong>{{ entry.time }}</strong> — <em>{{ entry.emotion }}</em>: "{{ entry.user }}" → {{ entry.bot }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

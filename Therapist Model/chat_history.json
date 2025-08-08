@@ -1,0 +1,66 @@
+[
+    {
+        "time": "2025-08-06 15:44",
+        "user": "hi",
+        "emotion": "neutral",
+        "score": 0.91,
+        "bot": "'hi'",
+        "suggestion": "Reflect on your feelings. Maybe a calming activity will bring clarity."
+    },
+    {
+        "time": "2025-08-06 15:44",
+        "user": "help me out",
+        "emotion": "neutral",
+        "score": 0.9,
+        "bot": "'I'm not a therapist, but I'm a therapist.'",
+        "suggestion": "Reflect on your feelings. Maybe a calming activity will bring clarity."
+    },
+    {
+        "time": "2025-08-06 15:44",
+        "user": "lol, who said this to you?",
+        "emotion": "surprise",
+        "score": 0.85,
+        "bot": "a therapist",
+        "suggestion": "Unexpected things happen \u2014 try reflecting on what you\u2019ve learned."
+    },
+    {
+        "time": "2025-08-06 15:44",
+        "user": "ahaaahha so you may help me",
+        "emotion": "joy",
+        "score": 0.61,
+        "bot": "'Ahaaahha so you may help me'",
+        "suggestion": "Keep doing what makes you happy. Consider sharing your joy with others!"
+    },
+    {
+        "time": "2025-08-06 15:45",
+        "user": "whats wrong?",
+        "emotion": "anger",
+        "score": 0.54,
+        "bot": "'What is wrong?'",
+        "suggestion": "Deep breaths help. Maybe go for a walk or express it through art or writing."
+    },
+    {
+        "time": "2025-08-06 15:45",
+        "user": "im having anxeity ",
+        "emotion": "fear",
+        "score": 0.96,
+        "bot": "'I am having anxeity'",
+        "suggestion": "You're not alone. Try grounding exercises or speak to someone you trust."
+    },
+    {
+        "time": "2025-08-06 15:45",
+        "user": "dont know how to deal with it..",
+        "emotion": "sadness",
+        "score": 0.55,
+        "bot": "'It's a shame that you are a therapist.",
+        "suggestion": "It's okay to feel sad. Try journaling your thoughts or talking to a friend."
+    },
+    {
+        "time": "2025-08-06 15:45",
+        "user": "im just a user youre a therapist",
+        "emotion": "neutral",
+        "score": 0.67,
+        "bot": "'I'm just a user you're a therapist'",
+        "suggestion": "Reflect on your feelings. Maybe a calming activity will bring clarity."
+    }
+]
