@@ -40,9 +40,7 @@ This is a compassionate AI-powered therapist chatbot web app built with **Flask*
 * Requests (for API calls if needed)
 * Jinja2 (Flask templating engine)
 * HTML, CSS (frontend)
-
----
-
+  
 Project Structure
 -----------------
 
@@ -169,6 +167,3 @@ url = {https://www.microsoft.com/en-us/research/publication/godel-large-scale-pr
 Email: [shizaalam50@gmail.com](mailto:shizaalam50@gmail.com)
 
 
----
-
-Let me know if you want me to help create the actual `requirements.txt` or sample HTML templates!
