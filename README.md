@@ -45,7 +45,7 @@ This is a compassionate AI-powered therapist chatbot web app built with **Flask*
 
 ## Project Structure
 
-TherapistModel_app/
+TherapistModel/
 │
 ├── app.py                  # Main Flask app with routes and logic
 ├── therapist_model.py      # Model loading and response generation logic
