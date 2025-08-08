@@ -43,23 +43,24 @@ This is a compassionate AI-powered therapist chatbot web app built with **Flask*
 
 ---
 
-## Project Structure
+Project Structure
+-----------------
 
 TherapistModel/
 │
-├── app.py                  # Main Flask app with routes and logic
-├── therapist_model.py      # Model loading and response generation logic
-├── templates/
-│   ├── chat.html           # Chat interface template
-│   ├── report.html         # Emotion report page
-├── static/
-│   └── chat.css            # Styling for chat UI
-├── requirements.txt        # Python dependencies
-├── README.md               # This file
-└── test_hf.py              # Test script to test Hugging Face model calls
-```
+├── app.py                 # Main Flask app with routes and logic
+├── therapist_model.py     # Model loading and response generation logic
+├── requirements.txt       # Python dependencies
+├── README.md              # This file
+├── test_hf.py             # Test script to test Hugging Face model calls
+│
+├── templates/             # HTML templates for the Flask app
+│   ├── chat.html          # Chat interface template
+│   └── report.html        # Emotion report page
+│
+└── static/                # Static files (CSS, JS, images)
+    └── chat.css           # Styling for chat UI
 
----
 
 ## Setup and Installation
 
