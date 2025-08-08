@@ -45,8 +45,7 @@ This is a compassionate AI-powered therapist chatbot web app built with **Flask*
 
 ## Project Structure
 
-```
-emotionally_unavailable_app/
+TherapistModel_app/
 │
 ├── app.py                  # Main Flask app with routes and logic
 ├── therapist_model.py      # Model loading and response generation logic
@@ -67,8 +66,8 @@ emotionally_unavailable_app/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/emotionally_unavailable_app.git
-cd emotionally_unavailable_app
+git clone https://github.com/yourusername/TherapistModel.git
+cd TherapistModel
 ```
 
 ### 2. Create and activate a virtual environment (recommended)
